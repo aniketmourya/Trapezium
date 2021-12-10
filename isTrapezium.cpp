@@ -26,8 +26,7 @@ bool isTrapezium(struct Point P1, struct Point P2, struct Point P3, struct Point
 	   
 	// finding slope of line formed by Points 2 & 3
 	double slope23 = (P2.y - P3.y) / (P2.x - P3.x) ;
-		   
-		     
+		   	     
 	// two sides are parallel if the corresponding slope of sides are same
 	/*Finding and checking if slope of line  formed by P1 and P2 is same as 
 	  that of line formed by P3 and P4 and if parallel sides are parallel to X-axis.*/        
@@ -42,9 +41,6 @@ bool isTrapezium(struct Point P1, struct Point P2, struct Point P3, struct Point
 		return false;
 	}
 }
-
-
-
 
 int main(){
 	double x,y;
